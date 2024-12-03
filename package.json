@@ -5,7 +5,7 @@
   "dependencies": {
     "@tanstack/react-query": "5.62.0",
     "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
+    "@testing-library/react": "^15.0.5",
     "@testing-library/user-event": "^13.5.0",
     "antd": "4.24.16",
     "axios": "0.21.1",
