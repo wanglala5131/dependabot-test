@@ -18,6 +18,7 @@ updates:
         - "react"
         - "react-dom"
         - "react-scripts"
+    ignore:
+      - dependency-name: "*"
         update-types:
-        - "minor"
-        - "patch"
+          - "version-update:semver-major"
