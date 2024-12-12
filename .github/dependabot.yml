@@ -16,7 +16,7 @@ updates:
         update-types: ["version-update:semver-major"]
   - package-ecosystem: "npm"
     directory: "/"
-        target-branch: "develop"
+    target-branch: "develop"
     schedule:
       interval: "daily"
       time: "12:00"
