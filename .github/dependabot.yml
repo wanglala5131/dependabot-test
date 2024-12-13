@@ -14,12 +14,3 @@ updates:
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
-  - package-ecosystem: "npm"
-    directory: "/"
-    target-branch: "develop"
-    schedule:
-      interval: "daily"
-      time: "12:00"
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-minor", "version-update:semver-patch"]
